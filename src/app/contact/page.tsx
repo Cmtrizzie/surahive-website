@@ -64,16 +64,19 @@ export default function ContactPage() {
                     <p className="mt-2 text-sm leading-6 text-slate-600">
                       {category.description}
                     </p>
-                    <div className="mt-auto pt-5">
+                    <div className="mt-auto pt-5 space-y-3">
                       {mailto ? (
-                        <a
-                          href={mailto}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex h-10 items-center justify-center rounded-md border border-slate-300 bg-white px-5 text-sm font-medium text-navy-900 shadow-xs transition-colors hover:border-navy-900 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
-                        >
-                          Email SuraHive
-                        </a>
+                        <>
+                          <a
+                            href={mailto}
+                            className="inline-flex h-10 items-center justify-center rounded-md border border-slate-300 bg-white px-5 text-sm font-medium text-navy-900 shadow-xs transition-colors hover:border-navy-900 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
+                          >
+                            Email SuraHive
+                          </a>
+                          <p className="text-xs text-slate-500">
+                            Or email directly: <a href={`mailto:${email}`} className="font-mono text-brand-cyan-strong hover:underline">{email}</a>
+                          </p>
+                        </>
                       ) : (
                         <p className="text-sm text-slate-500">
                           Contact email will be published here.
@@ -98,8 +101,6 @@ export default function ContactPage() {
                   </p>
                   <a
                     href={`mailto:${email}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="mt-1 inline-block break-all rounded-sm font-mono text-sm font-medium text-brand-cyan-strong underline-offset-4 hover:underline"
                   >
                     {email}
