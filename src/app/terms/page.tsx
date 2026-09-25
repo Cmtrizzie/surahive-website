@@ -64,6 +64,18 @@ const sections: LegalSection[] = [
       "These Terms may be updated from time to time. The latest version will always be published on this page, and continued use of the website after an update constitutes acceptance of the updated Terms.",
     ],
   },
+  {
+    heading: "9. Governing law",
+    paragraphs: [
+      "These Terms are governed by and construed in accordance with the laws of the Republic of Uganda. Any legal proceedings or disputes arising from your use of this website shall be subject to the exclusive jurisdiction of the courts of Uganda.",
+    ],
+  },
+  {
+    heading: "10. Future service terms",
+    paragraphs: [
+      "Specific products, platforms, or developer APIs provided by SuraHive AI LTD may be subject to additional terms, end-user license agreements (EULAs), or commercial conditions upon launch.",
+    ],
+  },
 ];
 
 export default function TermsPage() {

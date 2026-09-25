@@ -17,21 +17,22 @@ const sections: LegalSection[] = [
   {
     heading: "1. Overview",
     paragraphs: [
-      `This Privacy Statement describes how ${siteConfig.legalName} ("SuraHive AI", "we", "us") approaches privacy for the ${siteConfig.domain.replace("https://", "")} website.`,
+      `${siteConfig.legalName} ("SuraHive AI", "we", "us") is committed to protecting your privacy. This Privacy Statement outlines how we handle data on ${siteConfig.domain.replace("https://", "")} in accordance with applicable regulations, including the Uganda Data Protection and Privacy Act, 2019.`,
       "This statement is intentionally general at the company's current stage. It will be replaced with detailed, counsel-approved privacy language as SuraHive AI products and services are introduced.",
     ],
   },
   {
     heading: "2. Information we collect",
     paragraphs: [
-      "At this stage, the website is informational. It does not offer accounts and does not knowingly collect personal information beyond what you choose to send us — for example, when you contact us by email.",
-      "Like most websites, basic technical information (such as browser type and pages visited) may be processed by hosting and infrastructure providers in order to deliver the website.",
+      "We do not collect personal information unless you voluntarily provide it (e.g., via email). However, standard server logs (such as IP addresses and browser details) are processed automatically for security and network performance.",
+      "When you contact us by email, we collect your name, email address, and any content included in your message.",
     ],
   },
   {
     heading: "3. How we use information",
     paragraphs: [
       "Information you send us by email is used to read and respond to your enquiry. We do not sell personal information, and we do not use enquiry emails for marketing without your consent.",
+      "The legal basis for processing email inquiries is legitimate interest in responding to your communications.",
     ],
   },
   {
@@ -43,7 +44,7 @@ const sections: LegalSection[] = [
   {
     heading: "5. Data responsibility",
     paragraphs: [
-      "Where we hold information — for example, emails you have sent us — we keep it only for as long as needed to handle your enquiry and to meet any applicable obligations.",
+      "We retain inquiry emails only for as long as necessary to address your request or fulfill legal obligations. Typically, this is up to 12 months unless a business relationship is established.",
       "We treat data with care and purpose: collected with care, used for its intended purpose, and never treated as an afterthought.",
     ],
   },
@@ -56,7 +57,8 @@ const sections: LegalSection[] = [
   {
     heading: "7. Your choices",
     paragraphs: [
-      `You can ask us about information you have sent us — including requests to correct or delete it — by contacting us at ${email}.`,
+      "Depending on your jurisdiction, you have the right to access, correct, or request deletion of your personal data, and to withdraw consent for processing at any time.",
+      `To exercise these rights, contact us at ${email}.`,
     ],
   },
   {
