@@ -25,6 +25,10 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   applicationName: siteConfig.name,
+  icons: {
+    icon: "/brand/logo-mark.svg",
+    apple: "/brand/logo-mark.png",
+  },
   openGraph: {
     type: "website",
     siteName: siteConfig.name,
@@ -55,7 +59,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#F8FAFC",
+  themeColor: "#0B1020",
 };
 
 export default function RootLayout({
