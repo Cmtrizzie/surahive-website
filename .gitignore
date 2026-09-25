@@ -65,3 +65,4 @@ server.log
 # Development-only files
 Caddyfile
 src/lib/db.ts
+bun.lock
